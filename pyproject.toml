@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zavod"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Makhanek <daniel.makhanek@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.7.0"
+pyright = "^1.1.385"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
